@@ -1,13 +1,12 @@
 # Merkle tree based whitelist
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Simple exmaple of how a merkle tree can be used for whitelisting purposes. Merkle trees can be used to verify large amounts of data, if needed, making it much 
+more efficient in terms of cost of user restriction. Merkle trees make it possible to allocate allowance to thousands, even hundreds of thousands or millions 
+of users using a simple bytes32 value passed to a smart contract.
 
-Try running some of the following tasks:
+# Installation and Usage
 
 ```shell
-npx hardhat help
+npm install
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
 ```
